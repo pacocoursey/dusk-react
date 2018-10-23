@@ -1,15 +1,17 @@
 {
   "name": "dusk-react",
   "version": "0.0.1",
-  "description": "dusk icons in react",
+  "description": "react components for dusk icons",
   "main": "index.js",
-  "repository": "pacocoursey/dusk",
+  "repository": "pacocoursey/dusk-react",
   "keywords": [],
   "license": "MIT",
-  "scripts": {},
-  "dependencies": {
-    "prop-types": "^15.6.2",
-    "react": "^16.5.2"
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore ."
+  },
+  "peerDependencies": {
+    "prop-types": ">= 15",
+    "react": ">= 16"
   },
   "devDependencies": {
     "eslint": "^5.7.0",
