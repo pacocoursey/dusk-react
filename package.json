@@ -1,19 +1,28 @@
 {
   "name": "dusk-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "react components for dusk icons",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "repository": "pacocoursey/dusk-react",
   "keywords": [],
   "license": "MIT",
   "scripts": {
-    "lint": "eslint --ignore-path .gitignore ."
+    "lint": "eslint --ignore-path .gitignore .",
+    "build": "rm -rf dist && babel src --out-dir dist --copy-files"
   },
   "peerDependencies": {
     "prop-types": ">= 15",
     "react": ">= 16"
   },
   "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-react": "^7.0.0",
     "eslint": "^5.7.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
