@@ -4,6 +4,74 @@ React components for Dusk icons.
 
 ## Install
 
-```
+```bash
+# npm
 $ npm install dusk-react
+
+# yarn
+$ yarn add dusk-react
+```
+
+## Usage
+
+Import using object destructuring:
+
+```js
+import { Safari } from 'dusk-react';
+
+const Component = () => (
+  <Safari />
+);
+```
+
+Import an icon directly:
+
+```js
+import Safari from 'dusk-react/dist/icons/safari';
+
+const Component = () => (
+  <Safari />
+);
+```
+
+Import all of the icons:
+
+```js
+import * dusk from 'dusk-react';
+
+const Component = () => (
+  <dusk.Safari />
+);
+```
+
+### Props
+
+#### size(`number`)
+
+The size, in pixels, of the icon. Applies to both the width and the height.
+
+#### bg(`string`)
+
+Background color of the icon.
+
+#### fg(`string`)
+
+Foreground color of the icon.
+
+#### fg2(`string`)
+
+Secondary foreground color of the icon, if applicable.
+
+## Example
+
+```js
+import { Safari } from 'dusk-react';
+
+const Component = () => (
+  <Safari
+    size={300}
+    bg="blue"
+    fg="#FFEFD5"
+  />
+);
 ```
