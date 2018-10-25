@@ -75,3 +75,7 @@ const Component = () => (
   />
 );
 ```
+
+## Related
+
+- [Dusk](https://github.com/pacocoursey/dusk): simple, customizable macOS application icons
