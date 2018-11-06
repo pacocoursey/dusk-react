@@ -30,6 +30,7 @@ export { default as Messages } from './icons/messages';
 export { default as News } from './icons/news';
 export { default as Notes } from './icons/notes';
 export { default as Numbers } from './icons/numbers';
+export { default as Opus } from './icons/opus';
 export { default as Pages } from './icons/pages';
 export { default as Phone } from './icons/phone';
 export { default as Photos } from './icons/photos';
