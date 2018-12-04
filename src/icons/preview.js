@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Icon = (props) => {
+const Preview = (props) => {
   const {
     size, bg, fg,
   } = props;
@@ -14,16 +14,16 @@ const Icon = (props) => {
   );
 };
 
-Icon.propTypes = {
+Preview.propTypes = {
   size: PropTypes.number,
   bg: PropTypes.string,
   fg: PropTypes.string,
 };
 
-Icon.defaultProps = {
+Preview.defaultProps = {
   size: 512,
   bg: '#1e1e1e',
   fg: '#fff',
 };
 
-export default Icon;
+export default Preview;
