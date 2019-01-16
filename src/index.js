@@ -1,4 +1,5 @@
 export { default as ActivityMonitor } from './icons/activity-monitor';
+export { default as Affinity } from './icons/affinity';
 export { default as Anki } from './icons/anki';
 export { default as AppStore } from './icons/app-store';
 export { default as Atom } from './icons/atom';
@@ -52,6 +53,7 @@ export { default as Preview } from './icons/preview';
 export { default as Quicktime } from './icons/quicktime';
 export { default as Reminders } from './icons/reminders';
 export { default as Safari } from './icons/safari';
+export { default as SequelPro } from './icons/sequel_pro';
 export { default as Sketch } from './icons/sketch';
 export { default as Skype } from './icons/skype';
 export { default as Slack } from './icons/slack';
