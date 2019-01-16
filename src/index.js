@@ -52,6 +52,7 @@ export { default as Preview } from './icons/preview';
 export { default as Quicktime } from './icons/quicktime';
 export { default as Reminders } from './icons/reminders';
 export { default as Safari } from './icons/safari';
+export { default as Sketch } from './icons/sketch';
 export { default as Skype } from './icons/skype';
 export { default as Slack } from './icons/slack';
 export { default as Spotify } from './icons/spotify';
