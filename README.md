@@ -76,6 +76,10 @@ const Component = () => (
 );
 ```
 
+## Note
+
+The `1Password` icon is exported as `Password`, because Javascript variable names cannot begin with a number.
+
 ## Related
 
 - [Dusk](https://github.com/pacocoursey/dusk): simple, customizable macOS application icons
