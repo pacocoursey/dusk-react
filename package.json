@@ -1,6 +1,6 @@
 {
   "name": "dusk-react",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "react components for dusk icons",
   "main": "./dist/index.js",
   "module": "./dist/index.js",

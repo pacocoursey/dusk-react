@@ -71,6 +71,7 @@ export { default as Teams } from './icons/teams';
 export { default as Telegram } from './icons/telegram';
 export { default as Terminal } from './icons/terminal';
 export { default as Todoist } from './icons/todoist';
+export { default as Transmit } from './icons/transmit';
 export { default as Trash } from './icons/trash';
 export { default as Vivaldi } from './icons/vivaldi';
 export { default as Trello } from './icons/trello';
