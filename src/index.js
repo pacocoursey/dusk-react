@@ -32,6 +32,7 @@ export { default as FontBook } from './icons/font-book';
 export { default as Fork } from './icons/fork';
 export { default as Framer } from './icons/framer';
 export { default as Franz } from './icons/franz';
+export { default as GithubDesktop } from './icons/github_desktop';
 export { default as Hyper } from './icons/hyper';
 export { default as Illustrator } from './icons/illustrator';
 export { default as iMovie } from './icons/imovie';
