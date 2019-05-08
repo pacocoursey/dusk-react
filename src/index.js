@@ -47,6 +47,7 @@ export { default as Lightroom } from './icons/lightroom';
 export { default as Mail } from './icons/mail';
 export { default as Maps } from './icons/maps';
 export { default as Messages } from './icons/messages';
+export { default as Messenger } from './icons/messenger';
 export { default as MongoDB } from './icons/mongodb';
 export { default as News } from './icons/news';
 export { default as Notes } from './icons/notes';
